@@ -1,0 +1,42 @@
+baseURL = "http://suchanowski.com"
+languageCode = "en-US"
+title = "Sebastian Suchanowski"
+theme = "aerial"
+publishDir = "docs"
+
+[params]
+  name = "Sebastian Suchanowski"
+  about = "Software Developer &nbsp;&bull;&nbsp; Maker &nbsp;&bull;&nbsp; ..better see for yourself"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Website"
+  icon = "briefcase"
+  link = "http://synappse.co"
+
+[[params.social]]
+  medium = "LinkedIn"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/sebastian-suchanowski-93481544"
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://twitter.com/ssuchanowski"
+
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/sebastian.suchanowski"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/ssuchanowski"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:S.Suchanowski@gmail.com"
