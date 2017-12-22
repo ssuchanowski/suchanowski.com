@@ -1,0 +1,95 @@
+languageCode = "pl-pl"
+DefaultContentLanguage = "en"
+baseURL = "http://suchanowski.com"
+title = "Sebastian Suchanowski"
+theme = "aerial"
+publishDir = "docs"
+googleAnalytics = "UA-3669024-3"
+
+[Languages]
+
+  [Languages.en]
+    languageName = "English"
+
+    [Languages.en.params]
+      name = "Sebastian Suchanowski"
+      about = "Software Developer &nbsp;&bull;&nbsp; Maker &nbsp;&bull;&nbsp; ..better see for yourself"
+      bg_scroll = ""
+
+    [[Languages.en.params.social]]
+      medium = "Work"
+      icon = "briefcase"
+      link = "http://synappse.co"
+
+    [[Languages.en.params.social]]
+      medium = "Blog"
+      icon = "pencil-square-o"
+      link = "/blog/"
+
+    [[Languages.en.params.social]]
+      medium = "LinkedIn"
+      icon = "linkedin"
+      link = "https://www.linkedin.com/in/sebastian-suchanowski-93481544"
+
+    [[Languages.en.params.social]]
+      medium = "Twitter"
+      icon = "twitter"
+      link = "https://twitter.com/ssuchanowski"
+
+    [[Languages.en.params.social]]
+      medium = "Facebook"
+      icon = "facebook"
+      link = "https://www.facebook.com/sebastian.suchanowski"
+
+    [[Languages.en.params.social]]
+      medium = "Github"
+      icon = "github"
+      link = "https://github.com/ssuchanowski"
+
+    [[Languages.en.params.social]]
+      medium = "Email"
+      icon = "envelope-o"
+      link = "mailto:S.Suchanowski@gmail.com"
+
+  [Languages.pl]
+    languageName = "Polski"
+
+    [Languages.pl.params]
+      name = "Sebastian Suchanowski"
+      about = "Programista &nbsp;&bull;&nbsp; Majsterkowicz &nbsp;&bull;&nbsp; ..lepiej zobacz sam"
+      bg_scroll = ""
+
+    [[Languages.pl.params.social]]
+      medium = "Praca"
+      icon = "briefcase"
+      link = "http://synappse.co"
+
+    [[Languages.pl.params.social]]
+      medium = "Blog"
+      icon = "pencil-square-o"
+      link = "/blog/"
+
+    [[Languages.pl.params.social]]
+      medium = "LinkedIn"
+      icon = "linkedin"
+      link = "https://www.linkedin.com/in/sebastian-suchanowski-93481544"
+
+    [[Languages.pl.params.social]]
+      medium = "Twitter"
+      icon = "twitter"
+      link = "https://twitter.com/ssuchanowski"
+
+    [[Languages.pl.params.social]]
+      medium = "Facebook"
+      icon = "facebook"
+      link = "https://www.facebook.com/sebastian.suchanowski"
+
+    [[Languages.pl.params.social]]
+      medium = "Github"
+      icon = "github"
+      link = "https://github.com/ssuchanowski"
+
+    [[Languages.pl.params.social]]
+      medium = "Email"
+      icon = "envelope-o"
+      link = "mailto:S.Suchanowski@gmail.com"
