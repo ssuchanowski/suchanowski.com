@@ -3,6 +3,7 @@ languageCode = "en-US"
 title = "Sebastian Suchanowski"
 theme = "aerial"
 publishDir = "docs"
+googleAnalytics = "UA-3669024-3"
 
 [params]
   name = "Sebastian Suchanowski"
