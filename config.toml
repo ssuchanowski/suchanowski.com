@@ -2,40 +2,131 @@ baseURL = "http://suchanowski.com"
 languageCode = "en-US"
 title = "Sebastian Suchanowski"
 theme = "aerial"
-publishDir = "docs"
 googleAnalytics = "UA-3669024-3"
+preserveTaxonomyNames = true
+paginate = 5
+disqusShortname = "ssuchanowski"
+pluralizeListTitles = false
 
 [params]
   name = "Sebastian Suchanowski"
   about = "Software Developer &nbsp;&bull;&nbsp; Maker &nbsp;&bull;&nbsp; ..better see for yourself"
   bg_scroll = ""
+  navbarTitle          = "Synappse"
+  viewMorePostLink     = "/blog/"
+  dynamicTitles        = true
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  categoriesByCount    = true
+  includeReadingTime   = true
+  loadFavicon          = false
+  faviconVersion       = ""
+  socialShare          = true
+  author = "Sebastian Suchanowski"
+  description = "TODO"
+  email = "sebastian@synappse.pl"
 
-[[params.social]]
-  medium = "Website"
-  icon = "briefcase"
-  link = "http://synappse.co"
+  [params.share]
+    # Coding Communities
+    github          = ""
+    gitlab          = ""
+    stackoverflow   = "" # User Number
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    # Visual Art Communities
+    deviantart      = ""
+    flickr          = ""
+    behance         = ""
+    dribbble        = ""
+    # Publishing Communities
+    wordpress       = ""
+    medium          = ""
+    # Professional/Business Oriented Communities
+    linkedin        = "sebastian-suchanowski-93481544"
+    foursquare      = ""
+    xing            = ""
+    slideshare      = ""
+    # Social Networks
+    facebook        = "sebastian.suchanowski"
+    googleplus      = ""
+    reddit          = ""
+    quora           = ""
+    youtube         = "ssuchanowski"
+    vimeo           = ""
+    whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat          = ""
+    qq              = "" # User ID Number
+    instagram       = ""
+    tumblr          = ""
+    twitter         = "ssuchanowski"
+    skype           = "s.suchanowski"
+    snapchat        = ""
+    pinterest       = ""
+    telegram        = "ssuchanowski"
+    vine            = ""
+    # Email
+    email           = "S.Suchanowski@gmail.com"
 
-[[params.social]]
-  medium = "LinkedIn"
-  icon = "linkedin"
-  link = "https://www.linkedin.com/in/sebastian-suchanowski-93481544"
+  [[params.social]]
+    medium = "Work"
+    icon = "briefcase"
+    link = "http://synappse.co"
 
-[[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "https://twitter.com/ssuchanowski"
+  [[params.social]]
+    medium = "Blog"
+    icon = "pencil-square-o"
+    link = "/blog/"
 
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/sebastian.suchanowski"
+  [[params.social]]
+    medium = "LinkedIn"
+    icon = "linkedin"
+    link = "https://www.linkedin.com/in/sebastian-suchanowski-93481544"
 
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "https://github.com/ssuchanowski"
+  [[params.social]]
+    medium = "Twitter"
+    icon = "twitter"
+    link = "https://twitter.com/ssuchanowski"
 
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "mailto:S.Suchanowski@gmail.com"
+  [[params.social]]
+    medium = "Facebook"
+    icon = "facebook"
+    link = "https://www.facebook.com/sebastian.suchanowski"
+
+  [[params.social]]
+    medium = "Github"
+    icon = "github"
+    link = "https://github.com/ssuchanowski"
+
+  [[params.social]]
+    medium = "Email"
+    icon = "envelope-o"
+    link = "mailto:S.Suchanowski@gmail.com"
+
+  [params.intro]
+    header = 'Suchanowski.com'
+    paragraph = '<a href="/blog/">Tech Blog</a>'
+
+    [params.intro.pic]
+      src       = "/images/suchanowski.jpg"
+      circle    = true
+      imperfect = false
+      width     = ""
+      alt       = ""
+
+  [params.postAmount]
+    sidebar = 3
+
+  [params.navigation]
+    logo_color = ""
+    logo_white = ""
+    brand = "Suchanowski.com"
+    home = "Home"
+    work = "Work"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
