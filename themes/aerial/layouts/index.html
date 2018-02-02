@@ -30,6 +30,25 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+
+		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+        {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+        {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+
+        <!-- Facebook and Twitter integration -->
+        {{ if not .Site.Params.OpenGraph.hide }}
+        <meta name="og:site_name" content="{{ .Site.Title }}">
+        <meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+        <meta name="og:url" content="{{ .Permalink }}">
+        <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.intro.pic.src }}">
+        <meta name="twitter:title" content="{{ .Site.Title }}" />
+        <meta name="twitter:url" content="{{ .Permalink }}" />
+        <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.intro.pic.src }}" />
+        <meta name="twitter:card" content="{{ .Site.Params.description }}" />
+        {{ end }}
+
+        {{ template "_internal/schema.html" . }}
+        {{ template "_internal/google_news.html" . }}
 	</head>
 	<body class="loading">
 		<div id="wrapper">
@@ -42,7 +61,7 @@
 					<nav>
 						<ul>
 							{{ range .Site.Params.social }}
-							<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+							<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}" onclick="ga('send', 'event', '{{ .medium }}', null, null);"><span class="label">{{ .medium }}</span></a></li>
 							{{ end }}
 						</ul>
 					</nav>

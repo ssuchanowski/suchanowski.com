@@ -19,6 +19,25 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {{ .Hugo.Generator }}
+
+        {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+        {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+        {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+
+        <!-- Facebook and Twitter integration -->
+        {{ if not .Site.Params.OpenGraph.hide }}
+        <meta name="og:site_name" content="{{ .Site.Title }}">
+        <meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+        <meta name="og:url" content="{{ .Permalink }}">
+        <meta name="og:image" content="{{ .Site.BaseURL }}/img/{{ $.Params.featured }}">
+        <meta name="twitter:title" content="{{ $.Params.title }}" />
+        <meta name="twitter:url" content="{{ .Permalink }}" />
+        {{ if and (isset $.Params "featured")}}<meta name="twitter:image" content="{{ .Site.BaseURL }}/img/{{ $.Params.featured }}" />{{ else }}<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.intro.pic.src }}" />{{ end }}
+        <meta name="twitter:card" content="{{ $.Params.description }}" />
+        {{ end }}
+
+        {{ template "_internal/schema.html" . }}
+        {{ template "_internal/google_news.html" . }}
         
         <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -37,22 +56,6 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-
-        {{ with .Params.author }}
-            <meta name="author" content="{{ . }}">
-        {{ end }}
-        {{ with .Description }}
-            <meta name="description" content="{{ . }}">
-        {{ else }}
-            {{ with .Site.Params.description }}
-                <meta name="description" content="{{ . }}">
-            {{ end }}
-        {{ end }}
-
-        {{ template "_internal/twitter_cards.html" . }}
-        {{ template "_internal/opengraph.html" . }}
-        {{ template "_internal/schema.html" . }}
-        {{ template "_internal/google_news.html" . }}
 
         {{ if isset .Site.Params "customcss" }}
             {{ $.Scratch.Set "cssFiles" .Site.Params.customCSS }}

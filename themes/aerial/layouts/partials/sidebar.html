@@ -4,18 +4,20 @@
   <!-- Intro -->
   <section id="intro">
     {{ $pic := .Site.Params.intro.pic }}
-    {{ with $pic.src }}
-      {{ if $pic.circle }}
-        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
-      {{ else if $pic.imperfect }}
-        <a href='{{"/" | relURL}}' class="logo"><img src="{{ . | relURL }}" alt="{{ $pic.alt }}" /></a>
-      {{ else }}
-        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
-      {{ end }}
-    {{ end }}
+        {{ with $pic.src }}
+          {{ if $pic.circle }}
+          <img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+          {{ else if $pic.imperfect }}
+          <img src="{{ . | relURL }}" alt="{{ $pic.alt }}" />
+          {{ else }}
+          <img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+          {{ end }}
+        {{ end }}
     {{ with .Site.Params.intro }}
       <header>
-        <h3><a href='{{"/" | relURL}}'>{{ .header }}</a></h3>
+        <h3>
+            {{ .header }}
+        </h3>
         <p>{{ .paragraph | safeHTML }}</p>
       </header>
     {{ end }}
@@ -143,3 +145,5 @@
     </p>
   </section>
 </section>
+
+{{ partial "js.html" . }}

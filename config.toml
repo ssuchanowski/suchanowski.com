@@ -1,11 +1,11 @@
-baseURL = "http://suchanowski.com"
+baseURL = "http://www.suchanowski.com"
 languageCode = "en-US"
 title = "Sebastian Suchanowski"
 theme = "aerial"
 googleAnalytics = "UA-3669024-3"
 preserveTaxonomyNames = true
 paginate = 5
-disqusShortname = "ssuchanowski"
+disqusShortname = "suchanowski-com"
 pluralizeListTitles = false
 
 [params]
@@ -25,7 +25,7 @@ pluralizeListTitles = false
   faviconVersion       = ""
   socialShare          = true
   author = "Sebastian Suchanowski"
-  description = "TODO"
+  description = "Sebastian Suchanowski - software developer & maker"
   email = "sebastian@synappse.pl"
 
   [params.share]
@@ -72,14 +72,19 @@ pluralizeListTitles = false
     email           = "S.Suchanowski@gmail.com"
 
   [[params.social]]
-    medium = "Work"
-    icon = "briefcase"
-    link = "http://synappse.co"
-
-  [[params.social]]
     medium = "Blog"
     icon = "pencil-square-o"
     link = "/blog/"
+
+  [[params.social]]
+    medium = "Youtube"
+    icon = "youtube"
+    link = "https://www.youtube.com/user/ssuchanowski"
+
+  [[params.social]]
+    medium = "Work"
+    icon = "briefcase"
+    link = "http://synappse.co"
 
   [[params.social]]
     medium = "LinkedIn"
@@ -108,7 +113,8 @@ pluralizeListTitles = false
 
   [params.intro]
     header = 'Suchanowski.com'
-    paragraph = '<a href="/blog/">Tech Blog</a>'
+    paragraph = '<a href="/blog/">Blog</a>'
+    # about = "TEST"
 
     [params.intro.pic]
       src       = "/images/suchanowski.jpg"
@@ -118,7 +124,7 @@ pluralizeListTitles = false
       alt       = ""
 
   [params.postAmount]
-    sidebar = 3
+    sidebar = 5
 
   [params.navigation]
     logo_color = ""
