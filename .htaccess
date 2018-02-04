@@ -1,2 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
 Redirect 301 /2010/04/writing-the-college-admissions-essay/ /blog/writing-the-college-admissions-essay/
 Redirect 301 /2011/11/apple-tech-talk-2011-berlin-2/ /blog/apple-tech-talk-2011-berlin/
