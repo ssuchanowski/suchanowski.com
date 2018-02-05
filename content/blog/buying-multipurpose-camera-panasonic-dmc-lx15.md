@@ -26,7 +26,7 @@ I used youtube to get the basic info about those two camera models.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wIPndxRIejU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
-Thanks, all authors for sharing your insights.
+Big thanks to all authors for sharing your insights.
 
 ## Helping hand at the store
 At the store, I was lucky enough that I bumped into a salesperson who was a true maniac and was able to suggest another model for me. I was convinced I am gonna get the Canon G7X because it was noticeably cheaper, worked better in low light but it was lacking 4K and slow motion support and don't even get me started on autofocus. The guy suggested the [Panasonic DMC-LX15](https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-digital-cameras/premium-compact-cameras/dmc-lx15.html) which have all that I wanted and was in the same price range as Canon.
