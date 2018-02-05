@@ -42,4 +42,7 @@ We don't have to deal with admissions essay problem or any other exams if we wou
 
 Post inspired by Alan Gelb's [*Conquering the college admissions essay in 10 steps*](https://www.amazon.com/gp/product/1607743663/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1607743663&linkCode=as2&tag=suchanowski-20&linkId=254e0ab568c30f27de251ff91d3baace).
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=suchanowski-20&marketplace=amazon&region=US&placement=1607743663&asins=1607743663&linkId=3fef276349ecba4882ac0da23f8f0c06&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+    
 *This post was updated on 2nd Feb 2018*
