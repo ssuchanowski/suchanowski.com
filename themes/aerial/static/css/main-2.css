@@ -27,6 +27,11 @@
 		vertical-align: baseline;
 	}
 
+	img[src$='#center'] {
+    	display: block;
+    	margin: 0 auto;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu,
 	nav, section {
 		display: block;
