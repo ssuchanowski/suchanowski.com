@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Berlin on Sebastian Suchanowski</title>
+    <link>http://www.suchanowski.com/categories/berlin/</link>
+    <description>Recent content in Berlin on Sebastian Suchanowski</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 04 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://www.suchanowski.com/categories/berlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple Tech Talk 2011 - Berlin</title>
+      <link>http://www.suchanowski.com/blog/apple-tech-talk-2011-berlin/</link>
+      <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.suchanowski.com/blog/apple-tech-talk-2011-berlin/</guid>
+      <description>As all iOS developers know tickets for this year conference were booked almost immediately. At first, I thought that the scale of the event will be much bigger (however doing it in 9 cities is not piece of cake – if it all will be as well organized as the one in Germany). I&amp;rsquo;ve counted about 350 seats in the room where the KickOff part took place – as usual, started with some statistics – which is very typical for Apple.</description>
+    </item>
+    
+  </channel>
+</rss>
