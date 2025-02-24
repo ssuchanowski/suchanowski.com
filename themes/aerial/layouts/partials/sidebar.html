@@ -25,7 +25,9 @@
       <ul class="icons">
         {{ if .Site.Params.rssAppearAtTop }}
           <li>
-            <a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            {{ with .OutputFormats.Get "RSS" }}
+              <a href="{{ .RelPermalink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            {{ end }}
           </li>
         {{ end }}
         {{ partial "social" . }}
@@ -125,7 +127,9 @@
       <ul class="icons">
         {{ if .Site.Params.rssAppearAtBottom }}
           <li>
-            <a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            {{ with .OutputFormats.Get "RSS" }}
+              <a href="{{ .RelPermalink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            {{ end }}
           </li>
         {{ end }}
         {{ partial "social" . }}
